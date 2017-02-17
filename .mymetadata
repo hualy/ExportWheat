@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-module
+  type="WEB"
+  name="ExportWheat"
+  id="myeclipse.1475888511913"
+  context-root="/ExportWheat"
+  j2ee-spec="5.0"
+  archive="ExportWheat.war">
+  <attributes>
+    <attribute name="webrootdir" value="WebRoot" />
+  </attributes>
+</project-module>
+

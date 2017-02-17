@@ -1,0 +1,32 @@
+@import "_variable.scss";
+
+#rightNav{
+	// background-color: black;
+	height: 500px;
+	padding-left: 20px;
+	ul{
+		text-align: center;
+		margin-top: 50px;
+		cursor: pointer;
+		li{
+			background-color: $yellow;
+			border-radius: 20px;
+			margin-bottom: 15px;
+			a{
+				color: $white;
+				&:hover{
+					@extend li;
+					box-shadow: 2px 2px 5px $shadow;
+				}
+			}
+		}
+	}
+}
+#content{
+	// background-color: yellow;
+	height: 500px;
+}
+
+#mainContent{
+	padding-bottom: 60px;
+}

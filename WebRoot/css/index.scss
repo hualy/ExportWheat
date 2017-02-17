@@ -1,0 +1,52 @@
+@import "_variable.scss";
+#about{
+	margin-top: 10px;
+	background-color: $grey;
+	height: 215px;
+	width: 100%;
+	img{
+		margin-left: 100px;
+		margin-top: 10px;
+	}
+	div{
+		margin-top: 15px;
+		margin-left: 115px;
+	}
+}
+
+#hrid{
+	width: 90%;
+	margin-top:20px;
+	margin-bottom: 20px;
+	text-align: center;
+	img{
+		margin-top: -41px;
+	}
+}
+
+.item{
+	text-align: center;
+	img{
+		margin:auto;
+	}
+}
+
+.carousel-control.right,.carousel-control.left{
+	// background-image:linear-gradient(to right,rgba(0,0,0,.0001) 0,rgba(0,0,0,.5) 100%);
+}
+#main{
+	width: 85%;
+	height: 480px;
+}
+.carousel-control.left,.carousel-control.right{
+	background-image: none;
+}
+.carousel-caption{
+	border-radius: 10px;
+	margin:auto;
+	width: 100px;
+	background-color: #ccc;
+	color: yellow;
+	font-weight: bold;
+	opacity: .8;
+}

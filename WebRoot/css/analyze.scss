@@ -1,0 +1,110 @@
+@import "_variable.scss";
+
+#rightNav{
+	// background-color: black;
+	height: 500px;
+	padding-left: 20px;
+	padding-bottom: 60px;
+	z-index: 999;
+	ul{
+		text-align: center;
+		margin-top: 50px;
+		li{
+			background-color: $yellow;
+			border-radius: 20px;
+			margin-bottom: 15px;
+			a{
+				color: $white;
+				&:hover{
+					@extend li;
+					box-shadow: 2px 2px 5px $shadow;
+				}
+			}
+		}
+		li.new{
+			background-color: $white;
+			border:1px solid $yellow;
+			a{
+				color:$yellow;
+				&:hover{
+					background-color: $white;
+					border-width: 1px;
+					margin-bottom: 0px;
+					// @extend li.new;
+				}
+			}
+		}
+	}
+}
+#mainContent{
+	padding-bottom: 60px;
+}
+
+.hrid{
+	text-align: center;
+	img{
+		margin-top: -40px;
+	}
+}
+#information{
+	.col-md-3{
+		border-right: 5px solid $white;
+		background: $lightgrey;
+		margin-top: 10px;
+		padding-top: 10px;
+		padding-bottom: 10px;
+		margin-right: 5px;
+		select{
+			margin-bottom: 10px;
+			border-radius:10px;
+		}
+		button{
+			background-color: $white;
+			border-radius: 10px;
+			width: 100%;
+			height: 38px;
+			color: $heavegrey;
+			border:1px solid $heavegrey;
+			&:hover{
+					box-shadow: 2px 2px 5px $shadow;
+				}
+		}
+	}
+	#addBtn{
+		margin-top: 10px;
+		margin-bottom: 10px;
+		height: 150px;
+		background-color: $heavegrey;
+		color:$white;
+		border:none;
+		&:hover{
+			background-color: $addshadow;
+		}
+	}
+}
+#timeRow{
+	p{
+		margin-top: 6px;
+		margin-left: 10px;
+		font-weight: bold;
+	}
+	.btn{
+		background-color: $blue;
+		border-radius:10px;
+		color:$white;
+		&:hover{
+			box-shadow: 2px 2px 5px $shadow;
+		}
+	}
+}
+.chart{
+	height: 400px;
+	margin-bottom: 10px;
+	margin-top: 10px;
+	// background-color: yellow;
+}
+
+ul.nav-pills.affix{
+  top: 30px; /* Set the top position of pinned element */
+  width: 250px;
+}
